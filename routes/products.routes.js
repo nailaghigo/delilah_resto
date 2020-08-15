@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const { validateToken } = require('../configs/jwt.js');
+const { validateToken } = require('../lib/jwt.js');
 
 const productsController = require('../controllers/products.controller.js');
 
